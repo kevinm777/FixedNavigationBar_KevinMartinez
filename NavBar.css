@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Grenze Gotisch', cursive;
+  font-size:27px;
+  color: white;
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+}
+.homeBOX{
+  width: 100vw;
+  height: 80px;
+  background: #E1BBEE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+}
+.inlineTEXT{
+  list-style: none;
+}
+.inlineTEXT_info{
+  display: inline-block;
+  margin-right: 5px;
+}
+.box{
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.colorboxpurple{
+  background: #FDDBD1;
+}
+.colorboxpeach{
+  background: #B8E1E7;
+}
+.colorboxteal{
+  background: #BADDC3;
+}
+.colorboxgreen{
+  background: #9ADDC3;
+}
